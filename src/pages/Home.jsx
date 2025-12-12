@@ -1,6 +1,7 @@
 import Navbar from "../component/Navbar"
 import Header from "../component/Header"
 import Card from "../component/Card"
+import Service from "../component/Service"
 
 import { cartData } from "./data"
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         <div>
             <Navbar />
             <Header />
+            <Service />
             <div className="card-container">
             {cartData.map(item => (
                  

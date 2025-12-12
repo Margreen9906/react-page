@@ -78,6 +78,14 @@ nav ul li a:hover {
     font-weight: bold;
     transition: background-color 0.3s;
 }
+
+.text-center{
+    text-align: center;
+    margin: 30px auto;
+    font-weight: bold;
+    color: var(--accent-color);
+    
+}
 .card button:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
